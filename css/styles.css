@@ -1,0 +1,177 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #2e2e2e;
+}
+
+h1, 
+h2, 
+h3, 
+h4,
+h5 {
+    color: #dfdfdf;
+}
+
+p, label{
+    color: #dfdfdf;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"]{
+    width: 400px;
+    background: transparent;
+}
+
+textarea{
+    padding: 10px 5px;
+    width: 400px;
+    background: transparent;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+} 
+
+/* page header */
+.header{
+    height: 160px;
+    padding: 20px;
+    background-color: #00d471;
+}
+
+.header h3{
+    color: #fff;
+    margin-top: 0;
+}
+
+/* form container */
+.form-container{
+    background-color: #424242;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -90px;
+    border-radius: 10px;
+}
+
+/* form header */
+.form-header{
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+
+.form-header p{
+    color: #eeeeee;
+    border-bottom: 2px solid #00d471;
+    width: 110px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+
+/* form body */
+.form-body{
+    padding: 30px;
+}
+
+.form-title{
+    margin-bottom: 15px;
+}
+
+.form-body p{
+    margin-bottom: 25px;
+}
+
+.required-field{
+    color: #d80835;
+}
+
+.box-input{
+    margin-bottom: 35px;
+}
+
+.block{
+    display: block;
+}
+
+.optional-box{
+    display: inline-block;
+    margin: 0 30px 30px 0;
+}
+
+.optional-list li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.box-input p{
+    margin-bottom: 15px;
+}
+
+.btn-submit {
+    background-color: #00d471;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.btn-submit:hover{
+    background-color: #008346;
+    color: #fff;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    accent-color: #00d471;
+}
+
+input[type=date]:invalid::-webkit-datetime-edit {
+    color: #777;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+input[type=file]{
+    color: #777;
+}
+
+input[type=file]::file-selector-button {
+    background-color: #00d471;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+input[type=file]::file-selector-button:hover {
+    background-color: #008346;
+    color: #fff;
+}
+
+
+
+  
